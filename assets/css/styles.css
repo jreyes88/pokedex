@@ -1,0 +1,171 @@
+/*
+  ===================================
+  Page-wide Custom Styles
+  ===================================
+*/
+body {
+	background-color: #fb0505;
+	font-family: "Press Start 2P", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+p {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+/*
+  ===================================
+  Top of Pokedex
+  ===================================
+*/
+#topPaneLeft {
+	border-bottom: 5px solid #000;
+	border-radius: 5px;
+	padding: 30px 0 30px 30px;
+	margin: 0;
+	width: 27.5%;
+	height: 120px;
+	display: inline-block;
+}
+
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* here for IE8 Compatibility */
+    display: inline-block;
+}
+
+.smallerButton {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #000;
+}
+
+.logoPicture {
+	width: 30px;
+}
+
+#bigBlueButton {
+    width: 100px;
+    height: 100px;
+    background: #34a9d9;
+    border: 10px solid #fff;
+    position: absolute;
+    top: 30px;
+}
+
+#smallRedButton {
+	background-color: #fe3232;
+	position: absolute;
+	top: 30px;
+	left: 155px;
+}
+
+#smallYellowButton {
+	background-color: #f3d86f;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+}
+
+#smallGreenButton {
+	background-color: #15812c;
+	position: absolute;
+	top: 30px;
+	left: 245px;
+}
+
+#stackOverflowLogo {
+	width: 27px;
+	margin-left: 1px;
+}
+
+#topPaneSlant {
+	display: inline;
+	margin: 56px 0 0 0;
+	padding-bottom: 3px;
+	overflow: hidden;
+	margin-left: 30%;
+	border: 3px solid #000;
+	border-radius: 10px;
+	height: 120px;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 5px;
+	-webkit-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	-webkit-transform: skew(-45deg);
+	-ms-transform: skew(-45deg);
+	transform: skew(-45deg);
+	z-index: -1;
+	margin-left: 29%;
+}
+
+#topPaneRight {
+	margin: 56px 0 0 107px;
+	border-top: 5px solid #000;
+	border-radius: 3px;
+	padding-top: 4px;
+	width: 60%;
+	height: 120px;
+	display: inline-block;
+}
+
+/*
+  ===================================
+  Pokedex Case Cover
+  ===================================
+*/
+#caseCover {
+	/*background-color: #fff;*/
+	padding-top: 100px;
+	height: 400px;
+	width: 650px;
+	z-index: 100;
+	background-color: #C41212;
+	opacity: 1.0;
+}
+
+#arrow-right {
+	width: 0; 
+	height: 0;
+	margin-left: 45px;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 50px solid #f3d86f;
+	z-index: 100;
+}
+
+#oval {
+	margin-top: 100px;
+	margin-left: 65px;
+	width: 370px;
+	height: 20px;
+	border: 5px solid #000;
+	border-radius: 30px;
+	-moz-border-radius: 30px
+	-webkit-border-radius: 30px
+	
+}
+
+#caseCoverText {
+	display: block;
+	margin-left: 65px;
+	width: 370px;
+	height: 25px;
+	text-align: center
+}
+
+#caseCover {
+    overflow-x: hidden;
+}
+
+#caseContent {
+	position: absolute;
+    left: 100px;
+    top: 400px;
+    width:         300px;
+    background-color: blue;
+    z-index: 1;
+}
